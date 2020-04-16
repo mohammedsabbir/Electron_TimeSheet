@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Product</title>
+        <link rel = "stylesheet" href = "../../bower_components/bootstrap/dist/css/bootstrap.min.css" />
+        <link rel = "stylesheet" href = "./project.css" />
+    </head>
+    <body>
+        <form method="POST" enctype="multipart/form-data">
+            <div class="row ">
+                <div class="col-12">
+                    <label> Enter Product</label>
+                    <input type="text" class="form-control" id="productname" autofocus>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <label style="margin-top: 0.5rem"> Add Project Logo</label>
+                    <input type="file" class="form-control" id="uploadIcon">
+                </div>
+            </div>
+            <br />
+            <div class="row">
+                <div class="col-6">
+                    <button type="submit" class="btn btn-primary"> Add Project </button>
+                </div>
+                <div class="col-6">
+                    <img id="myimage" class="float-right" width="160" height="160">
+                </div>
+            </div>
+        </form>
+        
+        <script src="./project.js"></script>
+    </body>
+</html>
