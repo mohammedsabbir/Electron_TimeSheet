@@ -1,9 +1,0 @@
-body{
-    padding: 10px;
-    overflow: hidden;
-    font-size: 0.9rem;
-}
-
-.form-control{
-    height: calc(1.5em + .75rem + 0.5rem);
-}

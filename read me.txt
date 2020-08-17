@@ -1,0 +1,6 @@
+To Run, Electron project - go to app folder and type " electron . " and hit enter.
+
+
+constructor problem.. solve it later.
+
+to run : type `npm start` or `electron .`

@@ -1,20 +1,22 @@
 {
   "name": "timesheet",
   "version": "1.0.0",
-  "description": "Project time management",
+  "description": "timesheet",
   "main": "main.js",
   "scripts": {
+    "test": "ts",
     "start": "electron ."
   },
   "author": "Mohammed Sabbir",
   "license": "UNLICENSED",
   "dependencies": {
-    "electron-reload": "^1.4.1",
-    "electron-store": "^4.0.0",
     "jquery": "^3.4.1",
-    "mssql": "^5.1.0"
+    "jquery-ui": "^1.12.1",
+    "mssql": "^5.1.0",
+    "popper.js": "^1.15.0"
   },
   "devDependencies": {
-    "electron": "^5.0.8"
+    "@babel/preset-env": "^7.5.5",
+    "babel-preset-electron": "^1.4.15"
   }
 }

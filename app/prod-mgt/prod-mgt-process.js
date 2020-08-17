@@ -1,3 +1,10 @@
+// const electron = require('electron');
+// const $= require('jquery');
+// const {ipcRenderer} = electron;
+
+// ipcRenderer.on('init-data', function(e, data){
+//     $('#project-name').text(data.linkId);
+// });
 const electron = require('electron');
 const {ipcRenderer} = electron;
 const $= require('jquery');

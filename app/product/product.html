@@ -3,7 +3,7 @@
     <head>
         <title>Product</title>
         <link rel = "stylesheet" href = "../../bower_components/bootstrap/dist/css/bootstrap.min.css" />
-        <link rel = "stylesheet" href = "./project.css" />
+        <link rel = "stylesheet" href = "./product.css" />
     </head>
     <body>
         <form method="POST" enctype="multipart/form-data">
@@ -13,23 +13,23 @@
                     <input type="text" class="form-control" id="productname" autofocus>
                 </div>
             </div>
+            <br />
             <div class="row">
                 <div class="col-12">
-                    <label style="margin-top: 0.5rem"> Add Project Logo</label>
-                    <input type="file" class="form-control" id="uploadIcon">
+                    <input type="file" class="btn btn-info" id="uploadIcon">
                 </div>
             </div>
             <br />
             <div class="row">
-                <div class="col-6">
-                    <button type="submit" class="btn btn-primary"> Add Project </button>
+                <div class="col-4">
+                    <button type="submit" class="btn btn-primary">Add</button>
                 </div>
-                <div class="col-6">
-                    <img id="myimage" class="float-right" width="160" height="160">
+                <div class="col-8">
+                    <img id="myimage" width="200" height="200">
                 </div>
             </div>
         </form>
         
-        <script src="./project.js"></script>
+        <script src="./product-process.js"></script>
     </body>
 </html>
